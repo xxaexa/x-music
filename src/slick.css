@@ -1,0 +1,8 @@
+.slick-prev::before {
+  color: #312e81 !important;
+}
+.slick-next::before {
+  color: #312e81 !important;
+  height: 20px;
+  display: 'inline-block';
+}
