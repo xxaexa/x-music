@@ -1,33 +1,25 @@
-import React, { Component } from 'react'
-import Slider from 'react-slick'
+import { useState } from 'react'
 
 const Product = ({ img, color }) => {
-  const settings = {
-    dots: true,
-    arrows: false,
-    infinite: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    fade: true,
-    customPaging: function (i) {
-      return (
-        <a>
-          <img src={color[i]} className="rounded-full" />
-        </a>
-      )
-    },
-  }
+  const [colors, setColors] = useState(0)
   return (
-    <div>
-      <Slider {...settings}>
-        {img.map((img, index) => {
-          return (
-            <div key={index} className="">
-              <img src={img.src} alt="" className=" block mx-auto" />
-            </div>
-          )
-        })}
-      </Slider>
+    <div className="flex flex-wrap  justify-center ">
+      <div className="w-full">
+        <img src={img[colors].src} className="w-2/2 mx-auto" />
+      </div>
+      {color.map((c, index) => {
+        return (
+          <div className="mx-4">
+            <img
+              src={c}
+              className="rounded-full w-10 lg:w-12 cursor-pointer"
+              onClick={() => {
+                setColors(index)
+              }}
+            />
+          </div>
+        )
+      })}
     </div>
   )
 }
