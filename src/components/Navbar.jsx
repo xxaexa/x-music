@@ -1,5 +1,5 @@
 import { navbar, socialMedia } from '../Data'
-import x from './../image/x.png'
+import x from './../assets/image/x.png'
 
 const Navbar = () => {
   return (

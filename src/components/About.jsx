@@ -1,5 +1,5 @@
 import Title from './Title'
-import x from './../image/x.png'
+import x from './../assets/image/x.png'
 
 const About = () => {
   return (

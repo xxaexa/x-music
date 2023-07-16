@@ -1,28 +1,28 @@
 //banner
-import banner1 from './image/banner1.png'
-import banner2 from './image/banner2.png'
-import banner3 from './image/banner3.png'
+import banner1 from './assets/image/banner1.png'
+import banner2 from './assets/image/banner2.png'
+import banner3 from './assets/image/banner3.png'
 //product
-import a1 from './image/amp1.png'
-import a2 from './image/amp2.png'
-import a3 from './image/amp3.png'
-import b1 from './image/bass1.png'
-import b2 from './image/bass2.png'
-import b3 from './image/bass3.png'
-import g1 from './image/guitar1.png'
-import g2 from './image/guitar2.png'
-import g3 from './image/guitar3.png'
+import a1 from './assets/image/amp1.png'
+import a2 from './assets/image/amp2.png'
+import a3 from './assets/image/amp3.png'
+import b1 from './assets/image/bass1.png'
+import b2 from './assets/image/bass2.png'
+import b3 from './assets/image/bass3.png'
+import g1 from './assets/image/guitar1.png'
+import g2 from './assets/image/guitar2.png'
+import g3 from './assets/image/guitar3.png'
 
 //icon
 import { FaTiktok, FaInstagram, FaYoutube } from 'react-icons/fa'
 
 //testi
-import dave from './image/dave.png'
+import dave from './assets/image/dave.png'
 
 //color
-import color1 from './image/color1.png'
-import color2 from './image/color2.png'
-import color3 from './image/color3.png'
+import color1 from './assets/image/color1.png'
+import color2 from './assets/image/color2.png'
+import color3 from './assets/image/color3.png'
 
 export const imageBanner = [
   {
